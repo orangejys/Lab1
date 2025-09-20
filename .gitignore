@@ -1,0 +1,36 @@
+# Игнорировать бинарные файлы
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+*.war
+*.ear
+*.bin
+*.dump
+
+# Игнорировать папки сборки и зависимости
+bin/
+obj/
+build/
+dist/
+*.egg-info/
+node_modules/
+__pycache__/
+
+# Игнорировать файлы настроек IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Игнорировать логи
+*.log
+logs/
+
+# Игнорировать временные файлы
+*.tmp
+*.temp
+*.cache
+
